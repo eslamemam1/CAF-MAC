@@ -1,0 +1,22 @@
+.slick-dots li button:before {
+  color: white !important; /* Change the color of the dots to white */
+}
+.slick-dots li button:before {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.slick-dots {
+  bottom: 70px;
+}
+@media (min-width: 768px) and (max-width: 1450px) {
+  .slick-dots {
+      bottom: 170px;
+      height: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .slick-dots {
+      bottom: 85px;
+      height: 0px;
+  }
+}
